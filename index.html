@@ -1,10 +1,10 @@
 ---
 layout: null
-title: Jekyll Theme - Home Page - Massively
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+title: Red Resole
+description: Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world.
 sitemap:
     priority: 1.0
-    lastmod: 2017-11-02
+    lastmod: 2018-03-13
     changefreq: weekly
 ---
 <!DOCTYPE HTML>
@@ -16,110 +16,119 @@ sitemap:
 -->
 <html>
 	<head>
-    {% include head.html %}
-
-
+	    {% include head.html %}
 	</head>
+
 	<body class="is-loading">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-            <h1>{{site.title}}</h1>
-						<h2>The Jekyll Theme Version</h2>
-						<p>Massively is an HTML5 website theme designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>. Jekyll integration by <a href="https://somiibo.com">Somiibo</a></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-
-						<ul class="icons">
-              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
-									<p>With only a few edits, you can have a stunningly beautiful website <br />
-                    nearly out of the box. Of course... you can always take it further <br />
-                    and make it something even more amazing!</p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                <p>Regardless of your website's function, the homepage is what brings the user in.
-                  If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
-                <p>Your homepage must clearly describe what your site is about.
-									Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
-								</p>
-								<p>
-									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
-								 </p>
-
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
-                {% endfor %}
-
-							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
+			<!-- Intro -->
+			<div id="intro">
+            	<h1>{{site.title}}</h1>
+				<h2>Climb. Repair. Repeat.</h2>
+				<p>Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world.</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
 			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				{% include nav.html %}
+
+				<ul class="icons">
+	              	<li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+	              	<li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+	              	<li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+	            </ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<h2><a href="#">Red Resole Climbing Shoe Repair</a></h2>
+						<p>We are rock climbers with the mission of providing a reliable and local shoe re-soling service in order to keep fellow climbers on the rock. Climbing shoes are expensive, and buying a new pair every time the sole wears out can be frustrating. Let us get your favorite, perfectly fitting shoes back on your feet and feeling brand new.</p>
+					</header>
+					<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+
+					<div class="box">
+						<h2>How it Will Work</h2>
+						<p>It will be an easy four step process:<br />
+							<strong>Step 1:</strong> Fill out the form in person or on-line.
+
+							<br />
+
+							<strong>Step 2:</strong> Deliver or Ship us your shoe.
+
+							<br />
+
+							<strong>Step 3:</strong> We replace the rubber with a new sole of your choice.
+
+							<br />
+
+							<strong>Step 4:</strong> Pick up or Receive your shoe via mail.
+						</p>
+					</div>
+
+                	<p>Our team is working diligently to get this service off the ground! We need market research, community support, and are looking for new team members. Please fill out the <strong><a href="https://goo.gl/forms/m9UVrwamVI9GJzsi1" target= "_blank">survey</a></strong> and let us know that you would utilize this service! <strong><a href="https://mailchi.mp/5db27145d867/redriverresole" target= "_blank">Subscribe to our mailing list</a></strong> and we will let you know when we are fully functioning!</p>
+
+                	<p><strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfl42fh919Cnt7UHPtMchQEe77zPKdnbDrvp0r0rmFaYxhV5Q/viewform?usp=sf_link" target="_blank">Donate</a></strong> your old worn out shoes to us. If they are salvageable we would love to give them to beginners and other climbers in need. We also need extra shoes to help train new staff. Even if they are beyond repair, drop your old shoes off with us and we will dispose of them responsibly.</p>
+				</article>
+
+				<!-- Post Display -->
+				<!-- <section class="posts">
+	                {% for post in site.posts limit:4 %}
+	                {% assign mod3 = forloop.index | modulo: 3 %}
+						<article>
+							<header>
+								<span class="date">{{ post.date | date_to_string }}</span>
+								<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+							</header>
+
+							<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+							<p>{{ post.excerpt }}</p>
+							<ul class="actions">
+								<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+							</ul>
+						</article>
+
+	                  	{% if mod3 == 0 %}
+	                  	<article>
+							<header>
+								<h2><a href="#">Sponsored</h2>
+							</header>
+
+	  					</article>
+	                  	{% endif %}
+
+	                {% endfor %}
+				</section> -->
+				<!-- Blog Button using footer tag to center -->
+				<!-- <footer>
+                	<ul class="actions">
+                  		<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+                	</ul>
+				</footer> -->
+			</div>
+
+			<!-- Footer -->
+	        {% include foot.html %}
+
+		</div>
 
 		<!-- Scripts -->
 		{% include scripts-main.html %}
-    {% include tracking.html %}
+	    {% include tracking.html %}
 
 	</body>
 </html>

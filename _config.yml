@@ -1,10 +1,10 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Red Resole
+bio:                'Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world'
+description:        "Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+# url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -14,6 +14,8 @@ defaults:
     permalink: "/blog/:title/"
     layout: post
     author:
+
+include: [_data]
 
 # Jekyll
 permalink:          /blog/:title/
@@ -35,15 +37,14 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:            RedRiverResole
+facebook:           RedRiverResole
+instagram:          redriverresole
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Lexington, KY
+# phone:              310-318-5555
+email:              redriverresole@gmail.com
 
 # Gems
 gems:

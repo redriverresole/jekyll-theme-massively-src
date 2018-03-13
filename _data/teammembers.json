@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Nicole Howley",
+      "hometown": "Phoenix, AZ -> Rochester, NY -> Lexington, KY -> Louisville, KY",
+      "dayjob": "Program Support Assistant at the US Small Business Administration.",
+      "rrg": "I moved to Kentucky for the Red. Upstate New York doesn’t have a lot of outdoor rope climbing and I know many people who drive 18 hours round trip to come to the Gorge every year. I get to see some of my old friends when they visit, and I get to explore the walls here every weekend during the season if I can help it. I love the climbing community here and how it extends all over the country too. Not to mention the rock. The rock is beautiful.",
+      "image": "nicole-howley"
+    },
+    {
+      "name": "Shelby Perkins",
+      "hometown": "Louisville, KY",
+      "dayjob": "Chief Medical Scribe at the Baptist Health Emergency Department and certified EMT.",
+      "rrg": "Although I love many things about the Gorge, Copperas Creek Trail holds a very special place in my heart. My first backpacking trip was spent on the 4 mile long unmarked trail. The fun creek crossings, large mossy boulders, and the mystical waterfall at the end of the trail are some of my favorite parts of the hike itself. I highly recommend this trail to anyone looking for a fun adventure in the Gorge!",
+      "image": "shelby-perkins"
+    },
+    {
+      "name": "Brendan Thompson",
+      "hometown": "New Lenox, IL",
+      "dayjob": "Mobile and Web Development intern at Awesome Inc and a Senior Computer Science major at Transylvania University",
+      "rrg": "My favorite part of the Red River Gorge is backpacking in the Clifty Wilderness, especially Copperas Creek and Eagles Point Buttress.",
+      "image": "brendan-thompson"
+    },
+    {
+      "name": "Shelby Jones",
+      "hometown": "Lexington, Kentucky",
+      "dayjob": "Information Technology for the University of Kentucky",
+      "rrg": "",
+      "image": "team"
+    },
+]
