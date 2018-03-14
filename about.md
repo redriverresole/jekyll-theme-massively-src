@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Red Resole
-description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
+description: Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world.
 sitemap:
     priority: 0.7
-    lastmod: 2017-11-02
+    lastmod: 2018-03-13
     changefreq: weekly
 ---
 ## About Red Resole
