@@ -6,7 +6,7 @@ Developed By: Brendan Thompson
 
 Company Began at Startup Weekend Lexington 2017
 
-Using Massively by HTML5 Up
+Using Massively jekyll theme by HTML5 Up
 
 ## Credits
 ### Original README from HTML5 UP
