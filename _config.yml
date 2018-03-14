@@ -4,7 +4,7 @@ bio:                'Our mission is to provide a reliable, local, and sustainabl
 description:        "Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site
+url: "https://redriverresole.github.io/red-resole-march-2018" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -29,7 +29,7 @@ kramdown:
   enable_coderay:   false
 mathjax:            true
 sass:
-  sass_dir:         _sass
+  sass_dir:         /assets/css/
   style:            compressed
 
 # Comments
