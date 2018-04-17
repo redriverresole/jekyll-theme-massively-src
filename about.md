@@ -4,7 +4,7 @@ title: Red Resole
 description: Our mission is to provide a reliable, local, and sustainable shoe re-soling service for our fellow rock climbers near one of our favorite climbing destinations in the world.
 sitemap:
     priority: 0.7
-    lastmod: 2018-03-13
+    lastmod: 2018-04-17
     changefreq: weekly
 ---
 ## About Red Resole
