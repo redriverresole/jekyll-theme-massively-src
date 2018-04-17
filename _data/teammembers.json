@@ -14,17 +14,17 @@
       "image": "shelby-perkins"
     },
     {
-      "name": "Shelby Jones",
-      "hometown": "Fulton, Kentucky",
-      "dayjob": "Information Technology for the University of Kentucky",
-      "rrg": "The sun hates me.",
-      "image": "shelby-jones"
-    },
-    {
       "name": "Brendan Thompson",
       "hometown": "New Lenox, IL",
       "dayjob": "Mobile and Web Development intern at Awesome Inc and a Senior Computer Science major at Transylvania University",
       "rrg": "My favorite part of the Red River Gorge is backpacking in the Clifty Wilderness, especially Copperas Creek and Eagles Point Buttress. Whether I'm surrounded by massive builders in a creek valley or standing 100 feet above the treetops, the gorge always has an overwhelming ability to inspire awe.",
       "image": "brendan-thompson"
+    },
+    {
+      "name": "Shelby Jones",
+      "hometown": "Fulton, Kentucky",
+      "dayjob": "Information Technology for the University of Kentucky",
+      "rrg": "The sun hates me.",
+      "image": "shelby-jones"
     },
 ]
